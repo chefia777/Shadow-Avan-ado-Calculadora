@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Refino Shadow</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1>Calculadora de Refino Shadow</h1>
+      <table id="table1">
+        <tr>
+          <td>Refino</td>
+          <td id="refino">0</td>
+        </tr>
+        <tr>
+          <td>Minério Normal</td>
+          <td id="minerioNormal">0</td>
+        </tr>
+        <tr>
+          <td>Minério Perfeito</td>
+          <td id="minerioPerfeito">0</td>
+        </tr>
+      </table>
+      <br>
+      <p>Preço da moeda Cheffênia Normal:</p>
+      <input type="text" id="precoMoeda">
+      <br><br>
+      <p>Selecione o Refino Inicial:</p>
+      <select id="refinoInicial">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <br><br>
+      <p>Selecione o Refino Desejado:</p>
+      <select id="refinoDesejado">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <br><br>
+      <button id="refinarBtn">Refinar</button>
+      <br><br>
+      <table id="table2">
+        <tr>
+          <td>Preço</td>
+          <td id="preco">0</td>
+        </tr>
+      </table>
+      <br><br>
+      <br><br>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
